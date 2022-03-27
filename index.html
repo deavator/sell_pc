@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/preset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/timer.js" defer></script>
+    <script src="assets/js/modal.js" defer></script>
+    <script src="assets/js/sendForm.js" defer></script>
+    <script src="assets/js/scroll.js" defer></script>
+
+    <title>Сборка ПК</title>
+</head>
+
+<body>
+    <!-- SECTON HOME -->
+    <main class="main" id="home">
+        <!-- BG Image -->
+        <img class="main__cover" src="assets/img/main-screen__bgc.png" alt="cover">
+
+        <!-- HOME MENU BAR -->
+        <header class="header">
+            <div class="header__body">
+                <a href="#" class="logo__link">
+                    <img class="logo__img" src="assets/img/logo.svg" alt="logo">
+                </a>
+
+                <nav class="header__nav">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#about" class="menu__link">Чем занимаемся</a></li>
+                        <li class="menu__item"><a href="#process" class="menu__link">Процесс работы</a></li>
+                        <li class="menu__item"><a href="#team" class="menu__link">Команда</a></li>
+                        <li class="menu__item"><a href="#footer" class="menu__link">Сделать заказ</a></li>
+                    </ul>
+                </nav>
+
+                <button class="header__btn btn" type="button">Оставить заявку</button>
+            </div>
+        </header>
+
+        <div class="main__content">
+            <div class="">
+                <h1 class="main__title">Собираем игровой ПК
+                    под ваш бюджет</h1>
+            </div>
+
+            <div class="main__counter">
+                <div class="counter__item">
+                    <p class="counter__text" id="days">18</p>
+                    <span class="counter__subtitle">Дней</span>
+                </div>
+                <div class="counter__item">
+                    <p class="counter__text" id="hours">18</p>
+                    <span class="counter__subtitle">Часов</span>
+                </div>
+                <div class="counter__item">
+                    <p class="counter__text" id="minutes">18</p>
+                    <span class="counter__subtitle">Минут</span>
+                </div>
+                <div class="counter__item">
+                    <p class="counter__text" id="seconds">18</p>
+                    <span class="counter__subtitle">Секунд</span>
+                </div>
+            </div>
+
+            <div class="">
+                <button class="main__btn btn">Оставить заявку</button>
+            </div>
+        </div>
+    </main>
+    <!-- modal (end) -->
+
+    <!-- SECTION ABOUT -->
+    <section class="about section" id="about">
+        <div class="about__body _container">
+            <div class="about__cover">
+                <img src="assets/img/about.png" alt="about" class="about__cover-img">
+            </div>
+
+            <div class="about__content">
+                <h2 class="about__title">Чем мы занимаемся</h2>
+                <p class="section__text">
+                    Помогаем сэкономить до 40% стоимости игрового компьютера без потери производительности.
+                    Подбираем
+                    мощные детали компьютера, заказываем у своих поставщиков или напрямую у производителей, чтобы
+                    сэкономить ваши деньги. Собираем мощный компьютер, на котором можно играть в любые современные
+                    игры
+                    и заниматься работой.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- modal (end) -->
+
+    <!-- SECTION PROCESS -->
+    <section class="process section" id="process">
+        <div class="process__body _container">
+            <div class="section__header">
+                <h2 class="section__title">Процесс работы</h2>
+                <p class="section__text">
+                    Подробно рассказываем о том, как происходит сборка, от заявки до выдачи вашего заказа
+                </p>
+            </div>
+            <div class="process__items">
+                <div class="process__item">
+                    <h3 class="process__subtitle">Заявка</h3>
+                    <p class="process__subtext">Мы получаем вашу заявку, связываемся с вами для уточнения деталей, чтобы
+                        понять ваши ожидания от будущего компьютера.</p>
+                </div>
+                <div class="process__item">
+                    <h3 class="process__subtitle">Подбор</h3>
+                    <p class="process__subtext">После оплаты подбираем комплектующие, которые дадут максимальную
+                        производительность. Заказываем их напрямую у поставщиков.</p>
+                </div>
+                <div class="process__item">
+                    <h3 class="process__subtitle">Сборка</h3>
+                    <p class="process__subtext">Собираем компьютер, проводим стартовую диагностику, устанавливаем
+                        операционную систему и необходимые драйверы для работы.</p>
+                </div>
+                <div class="process__item">
+                    <h3 class="process__subtitle">Выдача</h3>
+                    <p class="process__subtext">Отдаём компьютер вам в назначенный срок, проводим вместе тестирование,
+                        подписываем документы о выполнении работы и гарантии.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- modal (end) -->
+
+    <!-- SECTION TEAM -->
+    <section class="team section" id="team">
+        <div class="team__body _container">
+            <div class="section__header">
+                <h2 class="section__title team__title">Наша команда</h2>
+            </div>
+            <div class="team__items">
+                <div class="team__item">
+                    <img src="assets/img/team1.png" alt="team member" class="team__image">
+                    <p class="team__name">Евгений Петров</p>
+                    <p class="team__position">Менеджер</p>
+                    <a href="#" class="team__btn">Биография</a>
+                </div>
+                <div class="team__item">
+                    <img src="assets/img/team2.png" alt="team member" class="team__image">
+                    <p class="team__name">Алексей Козлов</p>
+                    <p class="team__position">Специалист по софту</p>
+                    <a href="#" class="team__btn">Биография</a>
+                </div>
+                <div class="team__item">
+                    <img src="assets/img/team3.png" alt="team member" class="team__image">
+                    <p class="team__name">Дмитрий Иванов</p>
+                    <p class="team__position">Специалист по железу</p>
+                    <a href="#" class="team__btn">Биография</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- modal (end) -->
+
+    <!-- SECTION MAKE ORDER -->
+    <footer class="footer section" id="footer">
+        <h2 class="footer__title">Закажите свою уникальную сборку</h2>
+        <p class="footer__text">Мы свяжемся с вами, чтобы уточнить детали заказа</p>
+        <button class="footer__btn btn">Оставить заявку</button>
+        <div class="footer__social">
+            <div class="social__bg"><a class="social__link" href="https://vk.com" target="_blank"><img
+                        src="assets/img/vk.png" alt="vk-icon" class="social__icon"></a></div>
+            <div class="social__bg"><a class="social__link" href="https://youtube.com" target="_blank"><img
+                        src="assets/img/youtube.png" alt="youtube-icon" class="social__icon"></a></div>
+            <div class="social__bg"><a class="social__link" href="https://facebook.com" target="_blank"><img
+                        src="assets/img/facebook.png" alt="facebook-icon" class="social__icon"></a></div>
+            <div class="social__bg"><a class="social__link" href="https://instagram.com" target="_blank"><img
+                        src="assets/img/instagram.png" alt="instagram-icon" class="social__icon"></a></div>
+        </div>
+    </footer>
+    <!-- modal (end) -->
+
+    <!-- MODAL FORM -->
+    <div class="modal _hidden">
+        <div class="overlay"></div>
+        <div class="modal-wrapper">
+            <h2 class="modal__title">Заявка на сборку ПК</h2>
+            <p class="modal__descr">Мы свяжемся с вами, чтобы обсудить детали заказа</p>
+            <button type="button" class="modal__close" aria-label="закрыть модальное окно">
+            </button>
+            <form class="form modal__form">
+                <input type="text" name="name" class="input modal__input" placeholder="Как вас завут">
+                <input type="tel" name="tel" class="input modal__input" placeholder="Номер телефона">
+                <input type="mail" name="mail" class="input modal__input" placeholder="E-mail">
+                <button type="submit" class="btn modal-btn">Отправить</button>
+            </form>
+            <!-- /.form modal__form -->
+        </div>
+    </div>
+    <!-- modal (end) -->
+
+    <div class="go-home _hidden"><a href="#home" class="go-home__link"><img src="assets/img/arrowup.svg" alt="go home"
+                class="go-home__icon"></a>
+    </div>
+
+</body>
+
+</html>
